@@ -1,0 +1,75 @@
+body {
+background-image: url("just\ jelly\ 2.jpg");
+background-color: #cccccc;
+font-family: 'Open Sans', sans-serif;
+}
+
+header, footer {
+background: linear-gradient(to right, #b6a2dd, #6a75aa);
+color: white;
+padding: 1rem;
+text-align: center; 
+}
+
+header h1 {
+margin: 0;
+font-size: 3rem;
+text-shadow: 2px 2px #333;
+ }
+
+ main {
+max-width: 800px;
+margin: 0 auto;
+padding: 2rem;
+background: white;
+box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+article {
+margin-bottom: 2rem;
+ }
+ 
+h2 {
+ font-size: 2rem;
+ }
+
+ img {
+ max-width: 100%;
+}
+ footer {
+display: flex;
+justify-content: space-around;
+align-items: center;
+background: #333;
+color: white;
+padding: 1rem;
+ }
+
+ .logo img {
+    height: 50px;
+ }
+
+.company-info, .contact-form {
+    flex: 1;
+ }
+ company-info p {
+    margin: 0.5rem 0;
+}
+ .contact-form h3 {
+    margin-top: 0;
+ }
+
+ form {
+    display: flex;
+    flex-direction: column;
+ }
+
+label, input, textarea {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}
+
+input[type="submit"] {
+background: #b6a2dd;
+color: white;
+}
